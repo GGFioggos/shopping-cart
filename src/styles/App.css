@@ -46,3 +46,22 @@ video {
   position: fixed;
   z-index: -1;
 }
+
+.shop-now {
+  color: rgb(10, 10, 10);
+  position: fixed;
+  top: 85%;
+  left: 50%;
+  /* bring your own prefixes */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: translate(-50%, -50%);
+  padding-inline: 30px;
+  padding-block: 15px;
+  background-color: rgba(255, 255, 255, 0.626);
+  border-radius: 20px;
+}
+
+.mute {
+  position: absolute;
+  top: 150px;
+}

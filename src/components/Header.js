@@ -13,7 +13,9 @@ const Header = () => {
                     <a href="/contact">Contact</a>
                 </li>
             </ul>
-            <img className="logo" src={bmw_logo} alt="BMW Logo"></img>
+            <a href="/">
+                <img className="logo" src={bmw_logo} alt="BMW Logo"></img>
+            </a>
         </div>
     );
 };
