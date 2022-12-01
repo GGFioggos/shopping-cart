@@ -31,3 +31,11 @@ img {
     height: 60px;
     text-align:center;
 }
+
+.header button {
+    margin-right: 20px;
+    cursor: pointer;
+    filter: brightness(0) invert(1);
+    background-color: transparent;
+    border: none;
+}

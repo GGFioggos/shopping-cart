@@ -47,5 +47,22 @@
 }
 
 .price {
-    margin-top: 20px;
+    margin-top: 0px;
+}
+
+.car-card button {
+    border: 1px solid rgba(43, 42, 42, 0.617);
+    background-color: #0170e7;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-inline: 15px;
+    padding-block: 7px;
+    width: 100px;
+    transition: 0.2s;
+}
+
+.car-card button:hover {
+    transform: scale(1.07);
+    transition: 0.2s;
 }
