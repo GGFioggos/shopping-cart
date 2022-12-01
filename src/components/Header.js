@@ -12,6 +12,9 @@ const Header = () => {
                 <li>
                     <a href="/contact">Contact</a>
                 </li>
+                <li>
+                    <a href="/shop">Shop</a>
+                </li>
             </ul>
             <a href="/">
                 <img className="logo" src={bmw_logo} alt="BMW Logo"></img>

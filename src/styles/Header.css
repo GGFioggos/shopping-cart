@@ -1,9 +1,9 @@
 ul {
     position: absolute;
     display: flex;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     list-style: none;
-    gap: 25px;
+    gap: 40px;
 }
 
 a {
