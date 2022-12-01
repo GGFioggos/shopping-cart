@@ -1,7 +1,9 @@
 import './styles/App.css';
 import Header from './components/Header';
 import bmw from './images/bmw.mp4';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
+import mute from './images/mute.png';
+import unmute from './images/unmute.png';
 
 function App() {
     const [muted, setMuted] = useState(true);
@@ -16,7 +18,11 @@ function App() {
                 Shop Now
             </a>
             <button onClick={handleToggleMute} className="mute">
-                Mute
+                <img
+                    className="logo"
+                    src={muted ? mute : unmute}
+                    alt="BMW Logo"
+                ></img>
             </button>
         </div>
     );
