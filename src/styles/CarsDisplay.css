@@ -1,0 +1,51 @@
+.cars-container {
+    margin-inline: 50px;
+    color: white;
+    margin-top: 150px;
+}
+
+.car-card {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+}
+
+.carimg {
+    padding-inline: 15px;
+    height: 100%;
+    width: 30%;
+    min-width: 250px;
+    object-fit: contain;
+    transition: 0.3s;
+}
+
+.carimg:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.car-info {
+    width: 60%;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.description {
+    font-size: 1rem;
+    margin-top: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 120px;
+    white-space: wrap;
+}
+
+.price {
+    margin-top: 20px;
+}

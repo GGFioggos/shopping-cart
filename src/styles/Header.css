@@ -1,7 +1,7 @@
 ul {
     position: absolute;
     display: flex;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     list-style: none;
     gap: 40px;
 }
@@ -15,6 +15,7 @@ a {
     color: white;
     position: fixed;
     height: 80px;
+    top: 0;
     width: 100%;
     background-color: rgba(36, 36, 36, 0.231);
     display: flex;
