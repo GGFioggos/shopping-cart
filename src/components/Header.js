@@ -4,6 +4,8 @@ import cart from '../images/cart.png';
 import '../styles/Header.css';
 
 const Header = (props) => {
+    const isCartShown = props.isCartShown;
+
     return (
         <div className="header">
             <ul>
@@ -20,9 +22,9 @@ const Header = (props) => {
             <a href="/">
                 <img className="logo" src={bmw_logo} alt="BMW Logo"></img>
             </a>
-            <button>
+            <button onClick={isCartShown} className="show-cart">
                 <div>Cart: {props.itemsInCart}</div>
-                <img src={cart} alt="cart"></img>
+                <img src={cart} alt="cart-icon"></img>
             </button>
         </div>
     );
