@@ -1,0 +1,124 @@
+.cart {
+    position: fixed;
+    top: 0;
+    right: -36vw;
+    width: 40%;
+    min-width: 250px;
+    height: 100vh;
+    background-color: rgba(198, 198, 198, 0.7);
+    backdrop-filter: blur(5px);
+    transition: 0.8s;
+}
+
+.cart-item {
+    display: flex;
+}
+
+.cart-title {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.car-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.quantity {
+    margin-top: 20px;
+    display: flex;
+}
+
+.quantity input {
+    width: 45px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #e6dcd2;
+    background: none;
+    font-size: .9rem;
+}
+
+.quantity button {
+    border: none;
+    background-color: transparent;
+    width: 42px;
+    outline: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.cart .carimg:hover {
+    transform: none;
+}
+
+.cart-close {
+    position: absolute;
+    top: 0;
+    color: red;
+}
+
+.close-cart {
+    cursor: pointer;
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    border: none;
+    background-color: transparent;
+}
+
+.close-cart img {
+    height: 25px;
+    transition: 0.5s;
+}
+
+.close-cart img:hover {
+    transition: 0.5s;
+    transform: rotate(360deg);
+}
+
+.empty-message {
+    padding: 30px;
+    font-size: 1.2rem;
+}
+
+.checkout button {
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding-block: 15px;
+    padding-inline: 80px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.2s;
+}
+
+.checkout button:hover{
+    transition: 0.2s;
+    background-color: rgb(98, 98, 98);
+}
+
+.total {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
