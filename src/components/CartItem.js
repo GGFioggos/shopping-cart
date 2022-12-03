@@ -1,7 +1,14 @@
 import React from 'react';
+import { useEffect } from 'react';
 
 const CartItem = (props) => {
-    const { name, image, price } = props.car;
+    const { name, image, price, quantity } = props.car;
+    const increaseQuantity = props.increaseQuantity;
+    const decreaseQuantity = props.decreaseQuantity;
+
+    const handleChange = (e) => {
+        console.log(e.target.value);
+    };
 
     return (
         <div className="cart-item">
@@ -12,7 +19,10 @@ const CartItem = (props) => {
                     <div className="price">Price: {price + '$'}</div>
                 </div>
                 <div className="quantity">
-                    <button class="quantity-decrease">
+                    <button
+                        className="quantity-decrease"
+                        onClick={decreaseQuantity.bind(this, props.car)}
+                    >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="16"
@@ -22,8 +32,16 @@ const CartItem = (props) => {
                             <path d="M0 10h24v4h-24z"></path>
                         </svg>
                     </button>
-                    <input type="number" class="cart-quantity"></input>
-                    <button class="quantity-increase">
+                    <input
+                        onChange={handleChange}
+                        type="number"
+                        className="cart-quantity"
+                        value={quantity}
+                    ></input>
+                    <button
+                        className="quantity-increase"
+                        onClick={increaseQuantity.bind(this, props.car)}
+                    >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="16"
