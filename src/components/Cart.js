@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/Cart.css';
 import CartItem from './CartItem';
 import close from '../images/close.png';

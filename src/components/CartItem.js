@@ -1,5 +1,4 @@
 import React from 'react';
-import { useEffect } from 'react';
 
 const CartItem = (props) => {
     const { name, image, price, quantity } = props.car;
