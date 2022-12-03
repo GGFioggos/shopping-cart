@@ -4,11 +4,22 @@ import CartItem from './CartItem';
 
 const Cart = (props) => {
     const cart = props.cart;
+    const increaseQuantity = props.increaseQuantity;
+    const decreaseQuantity = props.decreaseQuantity;
 
     return (
         <div className="cart">
             <div className="cart-title">Your Cart</div>
-            <CartItem car={cart[0]}></CartItem>
+            {cart.map((car, index) => {
+                return (
+                    <CartItem
+                        car={car}
+                        increaseQuantity={increaseQuantity}
+                        decreaseQuantity={decreaseQuantity}
+                        key={index}
+                    ></CartItem>
+                );
+            })}
         </div>
     );
 };
