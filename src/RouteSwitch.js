@@ -4,10 +4,10 @@ import Shop from './routes/Shop';
 
 const RouteSwitch = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basemname={`/${process.env.PUBLIC_URL}`}>
             <Routes>
-                <Route path="/" element={<App />} />
-                <Route path="/shop" element={<Shop />} />
+                <Route exact path="" element={<App />} />
+                <Route exact path="/shop" element={<Shop />} />
             </Routes>
         </BrowserRouter>
     );
