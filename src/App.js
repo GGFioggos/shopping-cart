@@ -4,6 +4,7 @@ import bmw from './images/bmw.mp4';
 import React, { useState } from 'react';
 import mute from './images/mute.png';
 import unmute from './images/unmute.png';
+import { Link } from 'react-router-dom';
 
 function App() {
     const [muted, setMuted] = useState(true);
@@ -14,9 +15,9 @@ function App() {
             <video className="video" autoPlay loop muted={muted}>
                 <source src={bmw} type="video/mp4" />
             </video>
-            <a className="shop-now" href="/shop">
+            <Link className="shop-now" to="/shop">
                 Shop Now
-            </a>
+            </Link>
             <button onClick={handleToggleMute} className="mute">
                 <img
                     className="logo"
