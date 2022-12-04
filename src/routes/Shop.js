@@ -34,6 +34,9 @@ const Shop = () => {
         } else {
             item.quantity = 1;
             setCart([...cart, item]);
+            if (!isCartShown) {
+                handleClick();
+            }
         }
     };
 
