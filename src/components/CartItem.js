@@ -5,9 +5,7 @@ const CartItem = (props) => {
     const increaseQuantity = props.increaseQuantity;
     const decreaseQuantity = props.decreaseQuantity;
 
-    const handleChange = (e) => {
-        console.log(e.target.value);
-    };
+    const handleChange = (e) => {};
 
     return (
         <div className="cart-item">
