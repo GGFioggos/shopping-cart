@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shopping-cart/static/css/main.84014035.css",
-    "main.js": "/shopping-cart/static/js/main.44a1ddff.js",
+    "main.js": "/shopping-cart/static/js/main.4d04be5d.js",
     "static/media/bmw.mp4": "/shopping-cart/static/media/bmw.6954da7d0333a545f359.mp4",
     "static/media/bmw_m2.png": "/shopping-cart/static/media/bmw_m2.efeb2039679cfcf1b8ce.png",
     "static/media/bmw_m5.png": "/shopping-cart/static/media/bmw_m5.ac47959ed9510b4b24c5.png",
@@ -12,10 +12,10 @@
     "static/media/unmute.png": "/shopping-cart/static/media/unmute.99e68dcad561cdbd0822.png",
     "index.html": "/shopping-cart/index.html",
     "main.84014035.css.map": "/shopping-cart/static/css/main.84014035.css.map",
-    "main.44a1ddff.js.map": "/shopping-cart/static/js/main.44a1ddff.js.map"
+    "main.4d04be5d.js.map": "/shopping-cart/static/js/main.4d04be5d.js.map"
   },
   "entrypoints": [
     "static/css/main.84014035.css",
-    "static/js/main.44a1ddff.js"
+    "static/js/main.4d04be5d.js"
   ]
 }
