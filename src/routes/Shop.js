@@ -62,7 +62,7 @@ const Shop = () => {
     useEffect(() => {
         setItemsInCart(cart.length);
         calculateTotal();
-    }, [cart]);
+    }, [cart, calculateTotal]);
 
     return (
         <div>
