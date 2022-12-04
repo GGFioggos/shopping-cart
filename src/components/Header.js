@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import bmw_logo from '../images/bmw_logo.webp';
 import cart from '../images/cart.png';
 import '../styles/Header.css';
@@ -10,18 +11,18 @@ const Header = (props) => {
         <div className="header">
             <ul>
                 <li>
-                    <a href="/">Home</a>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <a href="/contact">Contact</a>
+                    <Link to="/contact">Contact</Link>
                 </li>
                 <li>
-                    <a href="/shop">Shop</a>
+                    <Link to="/shop">Shop</Link>
                 </li>
             </ul>
-            <a href="/">
+            <Link to="/">
                 <img className="logo" src={bmw_logo} alt="BMW Logo"></img>
-            </a>
+            </Link>
             <button onClick={isCartShown} className="show-cart">
                 <div>Cart: {props.itemsInCart}</div>
                 <img src={cart} alt="cart-icon"></img>
