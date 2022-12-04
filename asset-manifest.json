@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.84014035.css",
+    "main.js": "/shopping-cart/static/js/main.b239dd9c.js",
+    "static/media/bmw.mp4": "/shopping-cart/static/media/bmw.6954da7d0333a545f359.mp4",
+    "static/media/bmw_m2.png": "/shopping-cart/static/media/bmw_m2.efeb2039679cfcf1b8ce.png",
+    "static/media/bmw_m5.png": "/shopping-cart/static/media/bmw_m5.ac47959ed9510b4b24c5.png",
+    "static/media/bmw_8_series.png": "/shopping-cart/static/media/bmw_8_series.ba2d381053bfa88ffff6.png",
+    "static/media/bmw_8_series_normal.png": "/shopping-cart/static/media/bmw_8_series_normal.8dc50b4a53953fbef492.png",
+    "static/media/bmw_logo.webp": "/shopping-cart/static/media/bmw_logo.79f73872ce40f85ce62a.webp",
+    "static/media/cart.png": "/shopping-cart/static/media/cart.763fb7f60da693927a23.png",
+    "static/media/unmute.png": "/shopping-cart/static/media/unmute.99e68dcad561cdbd0822.png",
+    "index.html": "/shopping-cart/index.html",
+    "main.84014035.css.map": "/shopping-cart/static/css/main.84014035.css.map",
+    "main.b239dd9c.js.map": "/shopping-cart/static/js/main.b239dd9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84014035.css",
+    "static/js/main.b239dd9c.js"
+  ]
+}
